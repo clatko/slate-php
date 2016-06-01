@@ -1,0 +1,199 @@
+.content a { color:  #51B46D }
+
+a:focus,
+a:visited,
+a:active {
+  outline: 0px;
+  color: #51B46D;
+}
+
+#logo {
+	max-width: 200px;
+}
+
+/* this part is for the bg colours, if we dont like we remove this */
+.tocify-wrapper,
+.tocify-wrapper > .search input,
+.tocify { background: #535E6A; }
+
+.tocify-wrapper > .search { margin-top: 10px; }
+.tocify-wrapper > .search input { border-color: RGBA(117, 169, 190, 1); }
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:   RGBA(117, 169, 190, 1);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    RGBA(117, 169, 190, 1);
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    RGBA(117, 169, 190, 1);
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    RGBA(117, 169, 190, 1);
+}
+
+.tocify-wrapper .search-results,
+.tocify-wrapper .tocify-subheader {
+	display: block;
+	background: RGBA(87, 163, 222, .4); }
+
+.tocify-wrapper .search-results.visible { margin-bottom: 10px; }
+
+	.tocify-wrapper .tocify-focus { 
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none; }
+/* END this part is for the bg colours, if we dont like we remove this */
+
+.page-wrapper .dark-box { background: #292929; }
+
+fieldset {
+	border: none;
+	margin: 0; padding: 0;
+}
+
+select {
+	border: none;
+	text-transform: capitalize;
+	width: 100%;
+	height: 30px;
+	background: rgba(255,255,255,0.1);
+	color: white;
+}
+
+.date-button {
+	width: 27px;
+	position: absolute;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.button {
+	border-radius: 5px;
+	background: #57A3DE;
+	letter-spacing: .09em; 
+}
+
+.button:hover {
+	background: #57A3DE;
+}
+
+.button.try-it, .button.close {
+	display: block;
+	float: none;
+	padding: 0.75em 2em;
+	width: 100%;
+	text-align: right;
+	border-radius: 5px 5px 0 0;
+	background: #1C1C1C;
+	background: #57A3DE;
+	color: white;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.button.try-it {
+	border-radius: 5px;
+}
+
+.button.close {
+	border-radius: 5px 5px 0 0;
+}
+
+.button.try-it:hover, .button.close:hover {
+	background: #57A3DE;
+	/*background: #1C1C1C;*/
+	color: white;
+} 
+
+.button.try-it::after, .button.close::after {
+	position: absolute;
+	top: 13px; right: 11px;
+	color: white;
+	font-size: 0.6em;
+}
+
+.button.try-it::after {
+	content: "▼";
+}
+
+.button.close::after {
+	content: "▲";
+}
+
+.action pre {
+	margin: 0;
+	padding: 3px;
+	float: none;
+	width: auto;
+	margin-bottom: 0.5em;
+	background: transparent;
+}
+
+.action label {
+	font-weight: bolder;
+	line-height: 2;
+	margin-bottom: 1em;
+	display: block;
+}
+
+.control-group input[type="text"]:first-child { 
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px; }
+.control-group input[type="text"]:last-child { 
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px; }
+
+input[type="text"]{
+	padding: 0.65em;
+	border: none;
+	color: white;
+	background: rgba(255,255,255,0.1);
+	min-width: 200px;
+}
+
+input[type="submit"]{
+	float: none!important;
+	margin-top: 1em;
+}
+
+input[type="text"] ~ button {
+	border-radius: 0 5px 5px 0;
+	margin-left: -4px;
+	padding: 0.8em 1em;
+	height: 32px;
+	font-size: 0.9em;
+	font-weight: 300;
+}
+
+input[type="text"] ~ img {
+	width: 18px!important;
+	padding: 0.54em;
+	background: #57A3DE;
+	margin: 0!important;
+	border-radius: 0 5px 5px 0;
+} 
+
+.code .wrapper {
+	background: #1f1f1f;
+}
+
+.code form .control-group {
+	padding: 1em 0;
+	margin-bottom: 0;
+	border-bottom: 1px solid #282828;
+	box-sizing: border-box;
+}
+
+.code form .control-group:hover {
+	/*background: #222;*/
+}
+
+.code form .control-group:last-of-type {
+	border-bottom: none;
+}
+
+.action {
+	padding: 1em;
+}

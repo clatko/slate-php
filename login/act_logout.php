@@ -1,0 +1,3 @@
+<?
+$authObj->logout(true);
+?>
