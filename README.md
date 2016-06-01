@@ -1,11 +1,12 @@
 # SLATE #
 
-This PHP project is based on the ruby Slate project - https://github.com/tripit/slate. The content is generated based on output of https://github.com/clatko/swagger-springmvc and https://github.com/clatko/swagger-core.
+This PHP project is based on the ruby Slate project - [Slate](https://github.com/tripit/slate). The content is generated based on output of [Swagger SpringMVC](https://github.com/clatko/swagger-springmvc) and [Swagger Core](https://github.com/clatko/swagger-core).
 
 Deploy scripts included.
 
 nginx site conf:
 
+```
 server {
     listen			80;
     server_name		docs.sample.org;
@@ -34,5 +35,5 @@ server {
 		fastcgi_param SCRIPT_NAME /$arg_fuseaction;
 
     }
-
 }
+```
