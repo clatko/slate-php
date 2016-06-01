@@ -1,5 +1,9 @@
 # SLATE #
 
+This PHP project is based on the ruby Slate project - https://github.com/tripit/slate. The content is generated based on output of https://github.com/clatko/swagger-springmvc and https://github.com/clatko/swagger-core.
+
+Deploy scripts included.
+
 nginx site conf:
 
 server {
